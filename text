@@ -12,4 +12,3 @@ div#product.clone-cart {
     opacity: 0.1 !important;
     transition: 2s;
 }
-document.getElementsByClassName("classname").offsetleft 

@@ -60,7 +60,7 @@
   flex-wrap: wrap;
   width: 60%;
   margin: 0 auto;
-  position: relative;
+
 }
 .product-card {
   max-width: 300px;
@@ -142,6 +142,8 @@
   display: none;
   overflow-y: auto;
   height: 100vh;
+  transition: all 0.5s ease-in;
+  
 }
 .cart_Product button {
   display: none;
@@ -171,26 +173,29 @@
 ::-webkit-scrollbar-thumb:hover {
   background: #4b3ae0cb;
 }
+.clon1{
+  position: relative;
+}
 .anim {
   position: absolute;
   top: 66px;
-  left: 391px;
+  /* left: 391px; */
   opacity: 0.8;
-  transition: all 1.5s ease-in; /* Combine transition properties into one line */
-  animation: formto 3s ease-in; /* Combine animation properties into one line */
-}
-body {
-  position: relative;
-}
+  transition: all 0.5s ease-in; 
+  animation: formto 1.5s ease-in; }
+
+
+
 @keyframes formto {
   0% {
-    top: 65px;
+    /* top: 65px; */
     left: 391px;
-    /* zoom: normal; */
+  
   }
   100% {
-    top: -40px;
+    /* top: -40px; */
     left: 1540px;
+    opacity: 0;
     
   }
 }
