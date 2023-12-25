@@ -1,0 +1,15 @@
+
+element.style {
+    position: fixed;
+    top: 81px;
+    left: 411px;
+    opacity: 0.8;
+    /* zoom: 0.5; */
+}
+div#product.clone-cart {
+    top: 25px !important; 
+    left: 1393px !important;
+    opacity: 0.1 !important;
+    transition: 2s;
+}
+document.getElementsByClassName("classname").offsetleft 
