@@ -60,7 +60,6 @@
   flex-wrap: wrap;
   width: 60%;
   margin: 0 auto;
-
 }
 .product-card {
   max-width: 300px;
@@ -143,7 +142,6 @@
   overflow-y: auto;
   height: 100vh;
   transition: all 0.5s ease-in;
-  
 }
 .cart_Product button {
   display: none;
@@ -173,29 +171,23 @@
 ::-webkit-scrollbar-thumb:hover {
   background: #4b3ae0cb;
 }
-.clon1{
+.clon1 {
   position: relative;
 }
 .anim {
-  position: absolute;
-  top: 66px;
-  /* left: 391px; */
+  position: fixed;
   opacity: 0.8;
-  transition: all 0.5s ease-in; 
-  animation: formto 1.5s ease-in; }
-
-
+  transition: all 0.5s ease-in;
+  animation: formto 1.5s ease-in;
+}
 
 @keyframes formto {
   0% {
-    /* top: 65px; */
-    left: 391px;
-  
+    opacity: 0.8;
   }
+
   100% {
-    /* top: -40px; */
-    left: 1540px;
+    zoom: 0.5;
     opacity: 0;
-    
   }
 }
